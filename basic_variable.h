@@ -14,4 +14,4 @@ typedef struct player{
 typedef struct monster{
     char name[21];
     int hp;
-}
+};
