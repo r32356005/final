@@ -1,6 +1,5 @@
 enum character_class{warrior,witch}; //some character classes
 
-
 //basic information of the player
 typedef struct player{              
     char name[21];                   //player's name
