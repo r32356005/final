@@ -22,7 +22,7 @@ void Calculate_damage(Player *player,Monster *monster,...){           //計算�
 }
 
 void damage(Player *player,Monster *monster,int damage){    //玩家或怪物受到傷害
-    Player->hp=Player-damage;
+    Player->hp=Player->damage;
     /*
        看還要加什麼功能
     */
