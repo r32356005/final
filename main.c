@@ -1,4 +1,5 @@
 #include "raylib.h"
+#include "BasicVariables.h"
 int main() {
 
     const int screenWidth = 800;
