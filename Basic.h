@@ -17,7 +17,7 @@ typedef struct monster{
     int def;
 }Monster;
 
-void Calculate_damage(Player *player,Monster *monster,...);            //計算傷害
+int Calculate_damage(Player *player,Monster *monster,...);            //計算傷害
 void damage(Player *player,Monster *monster,int damage);               //玩家或怪物受到傷害
 void IsPlayerDead(Player *player);                                     //判定玩家死亡
 void IsMonsterDead(Monster *monster);                                  //判定怪物死亡
