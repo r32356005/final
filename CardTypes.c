@@ -1,12 +1,16 @@
 
 void Attack(Player *player,Monster *monster){
-
+  monster.hp-=player.atk;
 };
-void Defense(Player *player);
-void ExtraAP(Player *player);
-
+void Defense(Player *player);{
+  player.def+=??;
+};
+void ExtraAP(Player *player);{
+  player.ap+=1;
+};
 //Warrior's skill
-void Bang(Player *player,Monster *monster);
+void Bang(Player *player,Monster *monster);{
+  monster.hp-=(player.atk*2)
 void Recovery(Player *player);
 void Berserker(Player *player);
 
