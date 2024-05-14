@@ -1,6 +1,6 @@
-#ifndef CardTypes.h
+#ifndef CardTypes_h
 
-#define "CardTypes.h"
+#define CardTypes_h
 void Attack(Player *player,Monster *monster);
 void Defense(Player *player);
 void ExtraAP(Player *player);
@@ -14,3 +14,5 @@ void Berserker(Player *player);
 void ArmorPenetration(Monster *monster);
 void Weakness(Monster *monster);
 void StoppingTime(Monster *monster);
+
+#endif
